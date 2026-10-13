@@ -4,7 +4,8 @@ package com.gov.portal;
 
 public class Main {
  public static void main(String[] args){
- 
+  Citizen c = new Citizen("JC12345","Hesed");
+  new NationalIdService().process(c);
  }
 }
 
